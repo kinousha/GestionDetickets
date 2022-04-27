@@ -1,0 +1,24 @@
+ <h2>Editer un ticket  </h2>
+<%= form_for @ticket do |f| %>
+<div class="form-group">
+  <label>titre du ticket </label>
+   <%= f.text_field :titre, class:'form-control' %><br />
+</div>
+<div class="form-group">
+  <label>Description du ticket  </label>
+  <%= f.text_area :desctiption, class:'form-control' %><br />
+</div>
+<div class="form-group">
+  <label>statut du ticket </label>
+  
+   <%= f.select :statut, [ "A faire","encours","terminée"] %>
+</div>
+<div class="form-group">
+  <label>Assigner à</label>
+  <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+</div>
+<div class="form-group">
+  <button type="submit" class="btn btn-primary">Modifier le ticket  </button>
+</div>
+
+<% end %>

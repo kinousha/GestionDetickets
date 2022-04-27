@@ -1,0 +1,16 @@
+<h1>Gestion de ticket</h1>
+<% @tickets.each do |ticket| %>
+    <h2><%= ticket.titre %> <h2>
+    
+
+<p>
+<a href="<%= ticket_path(ticket.id) %>" class="btn btn-primary"> lire la suite</a>
+ <a href="<%= edit_ticket_path(ticket.id) %>" class="btn btn-default"> Editer le ticket</a>
+ <a href="<%= ticket_path(ticket.id) %>" class="btn btn-danger" data-confirm="Etes vous sur" data-method="DELETE"> Supprimer le ticket</a>
+
+ </p>
+
+ <% end %> 
+  <p>
+ <a href="<%= new_ticket_path %>" class="btn btn-success"> Ajouter un ticket</a>
+ </p>

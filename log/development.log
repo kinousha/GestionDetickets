@@ -1,0 +1,1744 @@
+Started GET "/" for ::1 at 2022-04-27 11:59:48 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (7.6ms)
+Completed 200 OK in 60ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateTickets (20220427120015)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateTickets (20220427120015)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (249.2ms)[0m  [1m[35mCREATE TABLE "tickets" ("id" bigserial primary key, "titre" character varying, "desctiption" text, "statut" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20220427120015_create_tickets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220427120015"]]
+  ↳ bin/rails:9
+  [1m[35m (22.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (20.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2022-04-27 12:32:38 +0000
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (16.4ms)
+Completed 200 OK in 53ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 12:32:41 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 12:32:42 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (5.5ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 12:32:42 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 12:33:20 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:33:40 +0000
+  
+SyntaxError (/home/kinekhouma/GesionTicket/app/controllers/tickets_controller.rb:23: dynamic constant assignment
+      Ticket=Ticket.create(tickets_params])
+            ^
+/home/kinekhouma/GesionTicket/app/controllers/tickets_controller.rb:23: syntax error, unexpected ']', expecting ')'
+...t=Ticket.create(tickets_params])
+...                              ^):
+  
+app/controllers/tickets_controller.rb:23: dynamic constant assignment
+app/controllers/tickets_controller.rb:23: syntax error, unexpected ']', expecting ')'
+Started GET "/tickets" for ::1 at 2022-04-27 12:35:06 +0000
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/home/kinekhouma/GesionTicket/app/controllers/tickets_controller.rb:23: dynamic constant assignment
+      Ticket=Ticket.create(tickets_params)
+            ^):
+  
+app/controllers/tickets_controller.rb:23: dynamic constant assignment
+Started GET "/tickets" for ::1 at 2022-04-27 12:35:35 +0000
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (2.0ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 601ms (Views: 579.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 12:35:40 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  Rendered tickets/new.html.erb within layouts/application (60.0ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 3.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Ticket:0x00007f80dc012f20>
+Did you mean?  desctiption
+               desctiption?
+               desctiption=):
+     6: </div>
+     7: <div class="form-group">
+     8:   <label>Description du ticket  </label>
+     9:   <%= f.text_area :description, class:'form-control' %><br />
+    10: </div>
+    11: <div class="form-group">
+    12:   <label>statut du ticket </label>
+  
+app/views/tickets/new.html.erb:9:in `block in _app_views_tickets_new_html_erb__2081649716147301616_70095712031600'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb__2081649716147301616_70095712031600'
+Started GET "/tickets/new" for ::1 at 2022-04-27 12:38:38 +0000
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  Rendered tickets/new.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 354ms (Views: 313.4ms | ActiveRecord: 9.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 12:38:49 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jRQHFJNeuBiHXf83Q+WyFqSuFynz71S6/WVKEpdBLy9hPlUmi2PU08RcoN2awIJfQYKKWemfGQiz6NV3e7RNLg==", "ticket"=>{"titre"=>"ki", "desctiption"=>"eie", "statut"=>"A faire"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (0.9ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "statut", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "ki"], ["statut", "A faire"], ["created_at", "2022-04-27 12:38:49.020051"], ["updated_at", "2022-04-27 12:38:49.020051"]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (54.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/1
+Completed 302 Found in 67ms (ActiveRecord: 56.1ms)
+
+
+Started GET "/tickets/1" for ::1 at 2022-04-27 12:38:49 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `titre' for nil:NilClass):
+    1:  <h2><%= @article.titre %> <h2>
+    2: <p><%= @article.description %> <p>
+    3: <p><%= @article.statut %> <p>
+    4: <p>
+  
+app/views/tickets/show.html.erb:1:in `_app_views_tickets_show_html_erb___2989340334446801358_70086384017780'
+Started POST "/tickets" for ::1 at 2022-04-27 12:39:00 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jRQHFJNeuBiHXf83Q+WyFqSuFynz71S6/WVKEpdBLy9hPlUmi2PU08RcoN2awIJfQYKKWemfGQiz6NV3e7RNLg==", "ticket"=>{"titre"=>"ki", "desctiption"=>"eie", "statut"=>"encours"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (1.9ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "statut", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "ki"], ["statut", "encours"], ["created_at", "2022-04-27 12:39:00.997743"], ["updated_at", "2022-04-27 12:39:00.997743"]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (65.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/2
+Completed 302 Found in 87ms (ActiveRecord: 68.5ms)
+
+
+Started GET "/tickets/2" for ::1 at 2022-04-27 12:39:01 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `titre' for nil:NilClass):
+    1:  <h2><%= @article.titre %> <h2>
+    2: <p><%= @article.description %> <p>
+    3: <p><%= @article.statut %> <p>
+    4: <p>
+  
+app/views/tickets/show.html.erb:1:in `_app_views_tickets_show_html_erb___2989340334446801358_70086455883060'
+Started GET "/" for ::1 at 2022-04-27 12:44:31 +0000
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/railties-5.2.7.1/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 22ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:44:40 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (50.4ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 12.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Ticket:0x00005564f2cd67a0>
+Did you mean?  titre
+               titre?
+               titre=):
+    1: <h1>tickets#index</h1>
+    2: <% @tickets.each do |ticket| %>
+    3:     <h2><%= ticket.title %> <h2>
+    4:     <p><%= ticket.content %> <p>
+    5: 
+    6: <p>
+  
+app/views/tickets/index.html.erb:3:in `block in _app_views_tickets_index_html_erb__3093832769102155426_46946031156920'
+app/views/tickets/index.html.erb:2:in `_app_views_tickets_index_html_erb__3093832769102155426_46946031156920'
+Started GET "/tickets" for ::1 at 2022-04-27 12:47:31 +0000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (2.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (59.5ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 11.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Ticket:0x0000561fd238d4f0>
+Did you mean?  desctiption
+               desctiption?
+               desctiption=):
+    1: <h1>tickets#index</h1>
+    2: <% @tickets.each do |ticket| %>
+    3:     <h2><%= ticket.titre %> <h2>
+    4:     <p><%= ticket.description %> <p>
+    5: 
+    6: <p>
+    7: <a href="<%= ticket_path(ticket.id) %>" class="btn btn-primary"> lire la suite</a>
+  
+app/views/tickets/index.html.erb:4:in `block in _app_views_tickets_index_html_erb___2351832457807425696_47347340014400'
+app/views/tickets/index.html.erb:2:in `_app_views_tickets_index_html_erb___2351832457807425696_47347340014400'
+Started GET "/tickets" for ::1 at 2022-04-27 12:48:46 +0000
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (47.3ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 7.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Ticket:0x000055f5d8b05eb8>
+Did you mean?  desctiption
+               desctiption?
+               desctiption=):
+    1: <h1>tickets#index</h1>
+    2: <% @tickets.each do |ticket| %>
+    3:     <h2><%= ticket.titre %> <h2>
+    4:     <p><%= ticket.description %> <p>
+    5: 
+    6: <p>
+    7: <a href="<%= ticket_path(ticket.id) %>" class="btn btn-primary"> lire la suite</a>
+  
+app/views/tickets/index.html.erb:4:in `block in _app_views_tickets_index_html_erb__1240646364450772573_47257199934080'
+app/views/tickets/index.html.erb:2:in `_app_views_tickets_index_html_erb__1240646364450772573_47257199934080'
+Started GET "/tickets" for ::1 at 2022-04-27 12:49:16 +0000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 325ms (Views: 299.4ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2022-04-27 12:49:24 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (20.6ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Ticket:0x00007f4ac8037720>
+Did you mean?  titre
+               titre?
+               titre=):
+    2: <%= form_for @ticket do |f| %>
+    3: <div class="form-group">
+    4:   <label>titre du ticket </label>
+    5:    <%= f.text_field :title, class:'form-control' %><br />
+    6: </div>
+    7: <div class="form-group">
+    8:   <label>Description du ticket  </label>
+  
+app/views/tickets/edit.html.erb:5:in `block in _app_views_tickets_edit_html_erb__1092998515310750670_69979579986600'
+app/views/tickets/edit.html.erb:2:in `_app_views_tickets_edit_html_erb__1092998515310750670_69979579986600'
+Started GET "/tickets/1/edit" for ::1 at 2022-04-27 12:50:05 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (33.2ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Ticket:0x00007f4ad001ba40>
+Did you mean?  desctiption
+               desctiption?
+               desctiption=):
+     6: </div>
+     7: <div class="form-group">
+     8:   <label>Description du ticket  </label>
+     9:   <%= f.text_area :description, class:'form-control' %><br />
+    10: </div>
+    11: <div class="form-group">
+    12:   <label>statut du ticket </label>
+  
+app/views/tickets/edit.html.erb:9:in `block in _app_views_tickets_edit_html_erb__1092998515310750670_69979647038520'
+app/views/tickets/edit.html.erb:2:in `_app_views_tickets_edit_html_erb__1092998515310750670_69979647038520'
+Started GET "/tickets/1/edit" for ::1 at 2022-04-27 12:50:57 +0000
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (1.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 359ms (Views: 308.4ms | ActiveRecord: 14.2ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2022-04-27 12:51:05 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NFN+vT1vvu0b4zs/J631bf8PoRvlzuXc4wvUyxCr39/YeSyPJVLSJljiZNX+iMUkGiM8a/++qG6thkuu/F693g==", "ticket"=>{"titre"=>"ki", "desctiption"=>"ds", "statut"=>"encours"}, "id"=>"1"}
+  [1m[36mTicket Load (1.0ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[36mTicket Update (22.0ms)[0m  [1m[33mUPDATE "tickets" SET "statut" = $1, "updated_at" = $2 WHERE "tickets"."id" = $3[0m  [["statut", "encours"], ["updated_at", "2022-04-27 12:51:05.679112"], ["id", 1]]
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (12.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 56ms (ActiveRecord: 36.4ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:51:05 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/tickets/2" for ::1 at 2022-04-27 12:51:11 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5nkdSqs+6lyG5WBhf8DNo5p4e3Wu0eCaxToVvEQNAu0KU094swOGl8XkP4um5f3qf1TmBbShrSiLt4rZqPhg7A==", "id"=>"2"}
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (0.6ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (28.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 42ms (ActiveRecord: 31.0ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:51:11 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 12:51:15 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  Rendered tickets/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 12:51:27 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4MUa9NmyAfHo/aDzJEf6NQlYhsAna6SLuwfYDjLeMTT5wcG1EzWz8U+fmIV0NCNZ2FEKp3/n4dsKDE7tZqmPMg==", "ticket"=>{"titre"=>"zzz", "desctiption"=>"zz"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (1.3ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["titre", "zzz"], ["created_at", "2022-04-27 12:51:27.788296"], ["updated_at", "2022-04-27 12:51:27.788296"]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (33.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 53ms (ActiveRecord: 38.1ms)
+
+
+Started GET "/tickets/3" for ::1 at 2022-04-27 12:51:27 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (1.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `titre' for nil:NilClass):
+    1:  <h2><%= @article.titre %> <h2>
+    2: <p><%= @article.description %> <p>
+    3: <p><%= @article.statut %> <p>
+    4: <p>
+  
+app/views/tickets/show.html.erb:1:in `_app_views_tickets_show_html_erb__3970208168439591544_69857290779940'
+Started GET "/tickets/3" for ::1 at 2022-04-27 12:55:29 +0000
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (1.0ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (20.1ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 10.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Ticket:0x000055ee8fb18428>
+Did you mean?  desctiption
+               desctiption?
+               desctiption=):
+    1:  <h2><%= @ticket.titre %> <h2>
+    2: <p><%= @ticket.description %> <p>
+    3: <p><%= @ticket.statut %> <p>
+    4: <p>
+    5: <a href="<%= tickets_path %>" class="btn btn-primary"> Revenir aux tickets</a>
+  
+app/views/tickets/show.html.erb:2:in `_app_views_tickets_show_html_erb___4097529839941402763_47241550616880'
+Started GET "/tickets/3" for ::1 at 2022-04-27 12:56:27 +0000
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 296ms (Views: 256.8ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:56:29 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tickets/1" for ::1 at 2022-04-27 12:56:34 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 41.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:56:37 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 42ms (Views: 38.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2022-04-27 12:56:38 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 35ms (Views: 30.7ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2022-04-27 12:56:44 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s0fAD9d4CjBXP2XI7pkMbxw8FOLdbsHhjDeb/qNHE/4RHZhQHjUNDffLEQCtTyOeweTo19+TlwQ+UcASChObGA==", "ticket"=>{"titre"=>"ki", "desctiption"=>"oriri", "statut"=>"encours"}, "id"=>"1"}
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 14ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:56:44 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2022-04-27 12:57:44 +0000
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 240ms (Views: 206.2ms | ActiveRecord: 9.3ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2022-04-27 12:57:50 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DAG6mmRnmVhiZWpsNM2Jk5o2XNun8a5B8uP+7pfRFuGuW+LFrSqeZcKRHqR3G6ZiR+6g7qUM+KRAhaUCPoWeBw==", "ticket"=>{"titre"=>"ki", "desctiption"=>"hhh", "statut"=>"encours"}, "id"=>"1"}
+  [1m[36mTicket Load (2.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 25ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:57:51 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 54ms (Views: 49.9ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/tickets/3" for ::1 at 2022-04-27 12:57:59 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9RCJeXlX7tcRyE9sVR8QQ/paJdjhAQK6n8/xAcLMwUUZOttLYWqCHFLJEIaMOiAKH3a4qPtxTwjRQm5kLjmjRA==", "id"=>"3"}
+  [1m[36mTicket Load (0.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (0.7ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 25ms (ActiveRecord: 10.4ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:57:59 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 44ms (Views: 39.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tickets/1" for ::1 at 2022-04-27 12:58:01 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 12:58:03 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 13:00:08 +0000
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'ticket' could not be found for TicketsController):
+  
+actionpack (5.2.7.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.7.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.7.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.7.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.7.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.7.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.7.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.7.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.7.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.7.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.7.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.7.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-04-27 13:00:34 +0000
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 298ms (Views: 280.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/tickets/1" for ::1 at 2022-04-27 13:00:38 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (3.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 43.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:00:39 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/tickets/1" for ::1 at 2022-04-27 13:00:44 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YPhVIqUUjvkZj9W4rYpDPw2y2HGaAYQzpk49eSb/ri2M0gcQvSniMlqOilJ0r3N26J5FAYBxyYHow6IcygrMLA==", "id"=>"1"}
+  [1m[36mTicket Load (2.1ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (1.0ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (18.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 53ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:00:45 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (5.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 54ms (Views: 45.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 13:02:44 +0000
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 255ms (Views: 238.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 13:02:47 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 35ms (Views: 31.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:02:49 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  Rendered tickets/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 50ms (Views: 30.1ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 13:02:54 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TJg4Yvvt+i3/Xv+xnQKtEN4OAoU+zLSE8P64uWSxEv4NrugQWgF6BCfQ4iWB9PYknG0bUx3d4KiyGwBseV6TQ==", "ticket"=>{"titre"=>"", "desctiption"=>""}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (1.8ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["titre", ""], ["created_at", "2022-04-27 13:02:54.662737"], ["updated_at", "2022-04-27 13:02:54.662737"]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (13.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/4
+Completed 302 Found in 37ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/tickets/4" for ::1 at 2022-04-27 13:02:54 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 74ms (Views: 52.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:02:57 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:04:27 +0000
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 285ms (Views: 259.5ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:04:31 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  Rendered tickets/new.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 47ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 13:04:38 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"snzxa76U3vnuvhzvk/zNjMPtFDKZ+4cc7ZO3PKvlDSareCoqdBNs+UncJJnDjxTgEuSYVcF3wkxcmCHf/5KzIA==", "ticket"=>{"titre"=>"hh", "desctiption"=>"hh"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (2.4ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["titre", "hh"], ["created_at", "2022-04-27 13:04:38.491514"], ["updated_at", "2022-04-27 13:04:38.491514"]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (17.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/5
+Completed 302 Found in 39ms (ActiveRecord: 20.5ms)
+
+
+Started GET "/tickets/5" for ::1 at 2022-04-27 13:04:38 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTicket Load (1.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 39.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:04:40 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tickets/4" for ::1 at 2022-04-27 13:04:43 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (0.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 36ms (Views: 29.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:04:44 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tickets/5" for ::1 at 2022-04-27 13:04:46 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:04:50 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (2.1ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 43ms (Views: 38.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/tickets/4/edit" for ::1 at 2022-04-27 13:04:52 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  Rendered tickets/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/tickets/4" for ::1 at 2022-04-27 13:05:01 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k07mFkzN/uS5G6eF+4fMhbDF4JHblzC2yNK6VbEznEh7EAQvEg21QJwHoGeE1ZbFqlx7EAcf2NFspFLFEVYoew==", "ticket"=>{"titre"=>"ticket1", "desctiption"=>"ueue", "statut"=>"A faire"}, "id"=>"4"}
+  [1m[36mTicket Load (1.8ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (3.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[36mTicket Update (0.7ms)[0m  [1m[33mUPDATE "tickets" SET "titre" = $1, "statut" = $2, "updated_at" = $3 WHERE "tickets"."id" = $4[0m  [["titre", "ticket1"], ["statut", "A faire"], ["updated_at", "2022-04-27 13:05:01.025171"], ["id", 4]]
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (32.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 51ms (ActiveRecord: 37.5ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 13:05:01 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets/4" for ::1 at 2022-04-27 13:05:03 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 29.7ms | ActiveRecord: 1.1ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreatePersonne (20220427130751)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (217.6ms)[0m  [1m[35mCREATE TABLE "personnes" ("id" bigserial primary key, "nom" character varying, "prenom" character varying)[0m
+  ↳ db/migrate/20220427130751_create_personne.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220427130751"]]
+  ↳ bin/rails:9
+  [1m[35m (38.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mPersonne Exists (1.2ms)[0m  [1m[34mSELECT  1 AS one FROM "personnes" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mPersonne Create (0.7ms)[0m  [1m[32mINSERT INTO "personnes" ("nom", "prenom") VALUES ($1, $2) RETURNING "id"[0m  [["nom", "kine"], ["prenom", "khouma"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (20.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mPersonne Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "personnes" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mPersonne Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "personnes" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mPersonne Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "personnes" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:16
+Started GET "/tickets" for ::1 at 2022-04-27 13:29:47 +0000
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 803ms (Views: 725.5ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 13:29:52 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:30:01 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (1.4ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (111.1ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 7.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `personne_id' for #<Ticket:0x00007f9894012258>
+Did you mean?  Personne
+               Personne=):
+    15:   <option value="2" selected="selected">En cours</option>
+    16:   <option value="3">terminée</option>
+    17: </select>
+    18: <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+    19: <div class="form-group">
+    20:   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
+    21: </div>
+  
+app/views/tickets/new.html.erb:18:in `block in _app_views_tickets_new_html_erb___2596486147478852574_70146647426600'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb___2596486147478852574_70146647426600'
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:30:52 +0000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (0.8ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (29.6ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 12.2ms)
+
+
+  
+ActionView::Template::Error (Could not find the inverse association for Personne (:ticket in Personne)):
+    15:   <option value="2" selected="selected">En cours</option>
+    16:   <option value="3">terminée</option>
+    17: </select>
+    18: <%= f.select :Personne, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+    19: <div class="form-group">
+    20:   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
+    21: </div>
+  
+app/views/tickets/new.html.erb:18:in `block in _app_views_tickets_new_html_erb__2971651622234416712_47066151434600'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb__2971651622234416712_47066151434600'
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:34:41 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (2.2ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (62.3ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 23.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `personne_id' for #<Ticket:0x00005637cdece6d0>
+Did you mean?  Personne
+               Personne=):
+    15:   <option value="2" selected="selected">En cours</option>
+    16:   <option value="3">terminée</option>
+    17: </select>
+    18: <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+    19: <div class="form-group">
+    20:   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
+    21: </div>
+  
+app/views/tickets/new.html.erb:18:in `block in _app_views_tickets_new_html_erb___303310287887595211_47398838602000'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb___303310287887595211_47398838602000'
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:36:44 +0000
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (2.0ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (58.7ms)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 18.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `personne_id' for #<Ticket:0x000056063e366ab0>
+Did you mean?  Personne
+               Personne=):
+    15:   <option value="2" selected="selected">En cours</option>
+    16:   <option value="3">terminée</option>
+    17: </select>
+    18: <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+    19: <div class="form-group">
+    20:   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
+    21: </div>
+  
+app/views/tickets/new.html.erb:18:in `block in _app_views_tickets_new_html_erb__4079865111648117703_47292406352400'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb__4079865111648117703_47292406352400'
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:37:21 +0000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (0.6ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (77.0ms)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 9.0ms)
+
+
+  
+ActionView::Template::Error (Could not find the inverse association for Personne (:ticket in Personne)):
+    15:   <option value="2" selected="selected">En cours</option>
+    16:   <option value="3">terminée</option>
+    17: </select>
+    18: <%= f.select Personne, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+    19: <div class="form-group">
+    20:   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
+    21: </div>
+  
+app/views/tickets/new.html.erb:18:in `block in _app_views_tickets_new_html_erb___2531757059904398365_46985410491220'
+app/views/tickets/new.html.erb:2:in `_app_views_tickets_new_html_erb___2531757059904398365_46985410491220'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddForeignkeyTicketOnPersonne (20220427134612)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (75.2ms)[0m  [1m[35mALTER TABLE "tickets" ADD "personne_id" integer[0m
+  ↳ db/migrate/20220427134612_add_foreignkey_ticket_on_personne.rb:3
+  [1m[35m (151.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_tickets_on_personne_id" ON "tickets"  ("personne_id")[0m
+  ↳ db/migrate/20220427134612_add_foreignkey_ticket_on_personne.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220427134612"]]
+  ↳ bin/rails:9
+  [1m[35m (9.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/tickets/new" for ::1 at 2022-04-27 13:52:40 +0000
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (1.1ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:18
+  Rendered tickets/new.html.erb within layouts/application (64.4ms)
+Completed 200 OK in 701ms (Views: 641.3ms | ActiveRecord: 14.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 13:52:54 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameters: :desctiption, :personne_id
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.2ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for Personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 13:55:39 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 9.8ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for Personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 13:58:41 +0000
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 8.7ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for Personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 14:02:44 +0000
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 11.2ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 14:10:12 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/home/kinekhouma/GesionTicket/app/controllers/tickets_controller.rb:38: syntax error, unexpected ':', expecting keyword_end
+      personne_attributes: %i[id personne _destroy]
+                         ^):
+  
+app/controllers/tickets_controller.rb:38: syntax error, unexpected ':', expecting keyword_end
+Started POST "/tickets" for ::1 at 2022-04-27 14:11:36 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 8.1ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 14:13:45 +0000
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 7.8ms)
+
+
+  
+ActiveRecord::InverseOfAssociationNotFoundError (Could not find the inverse association for personne (:ticket in Personne)):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 14:18:13 +0000
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TMtQ2sMsHUkrI9bB9VBTUaiZhVvkmf28XWmfVT5fwENGX9xczHcvmet0LHe8HEEo477ZXXiKkS/+DkYuAwdAA==", "ticket"=>{"titre"=>"shshh", "desctiption"=>"jsjjs", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mPersonne Load (0.4ms)[0m  [1m[34mSELECT  "personnes".* FROM "personnes" WHERE "personnes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (64.7ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at", "personne_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "shshh"], ["created_at", "2022-04-27 14:18:13.518440"], ["updated_at", "2022-04-27 14:18:13.518440"], ["personne_id", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (59.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/6
+Completed 302 Found in 207ms (ActiveRecord: 138.6ms)
+
+
+Started GET "/tickets/6" for ::1 at 2022-04-27 14:18:13 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 629ms (Views: 608.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:18:17 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 61ms (Views: 45.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 14:18:20 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (1.0ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:21
+  Rendered tickets/new.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 81ms (Views: 70.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 14:18:31 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BRMp7T34VD9aP3UP4WwPgLbYZn4iJQdnFPchP0djZsccF/Ks93/mP/1dTXmxH9bsZ9HqGXqpQjel/LfcExTYwQ==", "ticket"=>{"titre"=>"hhh", "desctiption"=>"hhh", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"1"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mPersonne Load (0.8ms)[0m  [1m[34mSELECT  "personnes".* FROM "personnes" WHERE "personnes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (120.0ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at", "personne_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "hhh"], ["created_at", "2022-04-27 14:18:31.133572"], ["updated_at", "2022-04-27 14:18:31.133572"], ["personne_id", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 122.2ms)
+
+
+  
+ActiveRecord::RecordNotUnique (PG::UniqueViolation: ERREUR:  la valeur d'une clé dupliquée rompt la contrainte unique « index_tickets_on_personne_id »
+DETAIL:  La clé « (personne_id)=(1) » existe déjà.
+: INSERT INTO "tickets" ("titre", "created_at", "updated_at", "personne_id") VALUES ($1, $2, $3, $4) RETURNING "id"):
+  
+app/controllers/tickets_controller.rb:23:in `create'
+Started POST "/tickets" for ::1 at 2022-04-27 14:18:49 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BRMp7T34VD9aP3UP4WwPgLbYZn4iJQdnFPchP0djZsccF/Ks93/mP/1dTXmxH9bsZ9HqGXqpQjel/LfcExTYwQ==", "ticket"=>{"titre"=>"hhh", "desctiption"=>"hhh", "personne_id"=>""}, "post"=>{"ticket_id"=>"1"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"tickets", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/tickets_controller.rb:24:in `create'
+Started GET "/tickets" for ::1 at 2022-04-27 14:19:16 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/tickets/6" for ::1 at 2022-04-27 14:19:25 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TamAE7ssQ9QDLNYMSQWbw0ptSyFsNwLufO08FIHh9kGhg9IhoxEvH0AtieaQIKuKr0HWUXZHT1wyYKNxbRSUQA==", "id"=>"6"}
+  [1m[36mTicket Load (7.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (1.0ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (24.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 60ms (ActiveRecord: 33.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:19:25 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.0ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/tickets/5" for ::1 at 2022-04-27 14:19:33 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yN9IAQ8BL7tXUsPVMzC0nWailQiOFx133Cmmi9Mcjlwk9RozFzxDcBRTnD/qFYTUg44IeJRnUMWSpDnuP+nsXQ==", "id"=>"5"}
+  [1m[36mTicket Load (1.1ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (1.6ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (12.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 47ms (ActiveRecord: 16.0ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:19:33 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 54ms (Views: 48.4ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/tickets/4" for ::1 at 2022-04-27 14:19:35 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lEGLjwUQv1cusFUcO1ol+0A/SJ+Tweu4e+3cN948wJF4a9m9HS3TnG2xCvbifxWypRPV74mxpgo1YENSMsmikA==", "id"=>"4"}
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (2.6ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (32.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 42ms (ActiveRecord: 36.3ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:19:35 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.8ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 14:19:37 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (1.1ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:21
+  Rendered tickets/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 14:19:45 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pFnyKzBJTHunweiofXAAIc+HBXfbcSrJ6Y/kGRXacd69XSlq+s7+ewCj0N4tA9lNHo6JEIP9b5lYhHL6Qa3P2A==", "ticket"=>{"titre"=>"ki", "desctiption"=>"nn", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mPersonne Load (0.9ms)[0m  [1m[34mSELECT  "personnes".* FROM "personnes" WHERE "personnes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (0.8ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at", "personne_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "ki"], ["created_at", "2022-04-27 14:19:45.659555"], ["updated_at", "2022-04-27 14:19:45.659555"], ["personne_id", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (41.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/8
+Completed 302 Found in 69ms (ActiveRecord: 45.0ms)
+
+
+Started GET "/tickets/8" for ::1 at 2022-04-27 14:19:45 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTicket Load (4.1ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 57ms (Views: 42.8ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:19:47 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tickets/8/edit" for ::1 at 2022-04-27 14:19:50 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  [1m[36mPersonne Load (1.2ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/edit.html.erb:18
+  Rendered tickets/edit.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 65ms (Views: 50.4ms | ActiveRecord: 1.8ms)
+
+
+Started PATCH "/tickets/8" for ::1 at 2022-04-27 14:20:00 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kFANLkzxUIRV9Avs6HhmFYbj19pcXjVFdUpM3kxuf28lNeaDP+i0QC+mRsicR0D40gO/fz1am1IwpWgqfzP1Ag==", "ticket"=>{"titre"=>"ki", "desctiption"=>"kinn", "statut"=>"A faire", "personne_id"=>""}, "id"=>"8"}
+  [1m[36mTicket Load (0.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 14ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:20:00 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 72ms (Views: 67.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets/8" for ::1 at 2022-04-27 14:20:05 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 32.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:20:07 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 14:20:36 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (0.4ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:21
+  Rendered tickets/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 85ms (Views: 43.6ms | ActiveRecord: 15.0ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 14:20:43 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wPUQ6t/sbUqOz8AM5KISybbkTm/jJOMHfsS1aHqm0zXZ8curFWvfSimt+Hq00culZ+3CCLuoplfPzyOLLtFtMw==", "ticket"=>{"titre"=>"", "desctiption"=>"", "personne_id"=>""}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (1.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.7ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"tickets", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/tickets_controller.rb:24:in `create'
+Started GET "/tickets" for ::1 at 2022-04-27 14:21:18 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/tickets/8" for ::1 at 2022-04-27 14:21:25 +0000
+Processing by TicketsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dZTnWFlKKHCXZVG6PrkIWc7CzmtjCpDxPpGLVif7SmqZvrVqQXdEu9RkDlDnnDgQK+5TG3l63UNwHBQzyw4oaw==", "id"=>"8"}
+  [1m[36mTicket Load (0.9ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:28
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[36mTicket Destroy (0.7ms)[0m  [1m[31mDELETE FROM "tickets" WHERE "tickets"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/tickets_controller.rb:29
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:29
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 30ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:21:25 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.9ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 77ms (Views: 72.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tickets/new" for ::1 at 2022-04-27 14:21:27 +0000
+Processing by TicketsController#new as HTML
+  Rendering tickets/new.html.erb within layouts/application
+  [1m[36mPersonne Load (0.6ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/new.html.erb:21
+  Rendered tickets/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tickets" for ::1 at 2022-04-27 14:21:44 +0000
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5FtV50kM/Ftbqmx9GoqcYklw1qFtzpnxvRMhrHUy3lv9X46mg4tOW/zIVAtK+UUOmHlaxjVC3KEMGLdPIUVgXQ==", "ticket"=>{"titre"=>"ticket1", "desctiption"=>"ticket de", "personne_id"=>"1"}, "post"=>{"ticket_id"=>"2"}}
+Unpermitted parameter: :desctiption
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mPersonne Load (1.5ms)[0m  [1m[34mSELECT  "personnes".* FROM "personnes" WHERE "personnes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[36mTicket Create (0.6ms)[0m  [1m[32mINSERT INTO "tickets" ("titre", "created_at", "updated_at", "personne_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["titre", "ticket1"], ["created_at", "2022-04-27 14:21:44.919300"], ["updated_at", "2022-04-27 14:21:44.919300"], ["personne_id", 1]]
+  ↳ app/controllers/tickets_controller.rb:23
+  [1m[35m (32.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tickets_controller.rb:23
+Redirected to http://localhost:3000/tickets/9
+Completed 302 Found in 76ms (ActiveRecord: 35.2ms)
+
+
+Started GET "/tickets/9" for ::1 at 2022-04-27 14:21:44 +0000
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTicket Load (1.5ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:6
+  Rendering tickets/show.html.erb within layouts/application
+  Rendered tickets/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 66ms (Views: 43.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:21:47 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (0.6ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tickets/9/edit" for ::1 at 2022-04-27 14:21:53 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTicket Load (1.3ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  [1m[36mPersonne Load (0.6ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/edit.html.erb:18
+  Rendered tickets/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 51ms (Views: 40.3ms | ActiveRecord: 1.9ms)
+
+
+Started PATCH "/tickets/9" for ::1 at 2022-04-27 14:22:02 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"21XLiCRkoJSuPK8FXjX/kC+LrucFyiDuehpgut3LN2yC4NyCvWjBdc5VlCedRFYW4RldX5T1rNDDQbqvYDNvKg==", "ticket"=>{"titre"=>"ticket1", "desctiption"=>"", "statut"=>"A faire", "personne_id"=>""}, "id"=>"9"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (1.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 14ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:22:02 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 98ms (Views: 89.5ms | ActiveRecord: 1.2ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3827829987652655145)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/tickets" for ::1 at 2022-04-27 14:34:32 +0000
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (1.7ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 323ms (Views: 288.3ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/tickets/9/edit" for ::1 at 2022-04-27 14:34:36 +0000
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mTicket Load (0.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:9
+  Rendering tickets/edit.html.erb within layouts/application
+  [1m[36mPersonne Load (1.1ms)[0m  [1m[34mSELECT "personnes".* FROM "personnes"[0m
+  ↳ app/views/tickets/edit.html.erb:18
+  Rendered tickets/edit.html.erb within layouts/application (73.9ms)
+Completed 200 OK in 100ms (Views: 84.1ms | ActiveRecord: 9.1ms)
+
+
+Started PATCH "/tickets/9" for ::1 at 2022-04-27 14:34:52 +0000
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vKADxNle/zoGxUUgWls3VUHTzeTqhuvkAST+HEkDx+XlFRTOQFKe22asfgKZKp7Tj0E+XHu5Z9q4fyQJ9Pufow==", "ticket"=>{"titre"=>"ticket1", "desctiption"=>"jjj", "statut"=>"encours", "personne_id"=>""}, "id"=>"9"}
+  [1m[36mTicket Load (1.4ms)[0m  [1m[34mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tickets_controller.rb:12
+Unpermitted parameter: :desctiption
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tickets_controller.rb:13
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/tickets_controller.rb:13
+Redirected to http://localhost:3000/tickets
+Completed 302 Found in 70ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/tickets" for ::1 at 2022-04-27 14:34:53 +0000
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (2.4ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 79ms (Views: 74.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2022-04-27 17:51:55 +0000
+Started GET "/" for ::1 at 2022-04-27 17:51:57 +0000
+  [1m[35m (120.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/kinekhouma/.rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by TicketsController#index as HTML
+Processing by TicketsController#index as HTML
+  Rendering tickets/index.html.erb within layouts/application
+  Rendering tickets/index.html.erb within layouts/application
+  [1m[36mTicket Load (72.3ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  [1m[36mTicket Load (70.2ms)[0m  [1m[34mSELECT "tickets".* FROM "tickets"[0m
+  ↳ app/views/tickets/index.html.erb:2
+  ↳ app/views/tickets/index.html.erb:2
+  Rendered tickets/index.html.erb within layouts/application (186.8ms)
+  Rendered tickets/index.html.erb within layouts/application (188.5ms)
+Completed 200 OK in 1104ms (Views: 915.0ms | ActiveRecord: 125.9ms)
+
+
+Completed 200 OK in 1097ms (Views: 889.7ms | ActiveRecord: 154.5ms)
+
+
