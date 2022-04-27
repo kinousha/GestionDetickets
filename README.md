@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+#Executer la commande suivante pour remplir la table personne
+rails db:seed
