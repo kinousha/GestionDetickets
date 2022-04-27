@@ -9,16 +9,17 @@
   <%= f.text_area :desctiption, class:'form-control' %><br />
 </div>
 <div class="form-group">
+ <label>Statut du ticket</label><br/>
 <select name="post[ticket_id]" id="post_person_id">
   <option value="" label=" "></option>
   <option value="1">A faire</option>
   <option value="2" selected="selected">En cours</option>
   <option value="3">terminée</option>
 </select>
-<br />
+</div><br/>
 <div class="form-group">
-  <label>Assigner à</label>
-  <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %>
+  <label>Assigner à:</label><br/>
+  <%= f.select :personne_id, Personne.all.collect { |p| [ p.nom, p.id ] }, include_blank: true %><br />
 </div>
 <div class="form-group">
   <button type="submit" class="btn btn-primary">Ajouter le ticket </button>
